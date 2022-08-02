@@ -1,0 +1,142 @@
+body,html{
+    width:100%;
+    height:100%;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width:60%;
+    height:80%;
+    background-color: rgb(88, 12, 95);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap:5%;
+}
+
+.subcontainer-top{
+    width:80%;
+    height:45%;
+    display:flex;
+    align-self:top;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+
+}
+.subcontainer-bottom{
+    width:80%;
+    height:15%;
+    align-self:bottom;
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.left,.right{
+    width:48%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.bottom{
+    text-size-adjust;
+    font-size:100px;
+    font-stretch: normal;
+    font-family:'Verdana';
+    font-weight: bold;
+    color:white;
+}
+
+.first-l{
+    background-color: rgb(219, 19, 226);
+    width:100%;
+    height:25%;
+}
+.second-l{
+    width:100%;
+    height:70%;
+    display:flex;
+    justify-content: space-between;
+}
+.second-left,.second-right{
+    width:47%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-top{
+    height:65%;
+    width:100%;
+    background-color:orange;
+}
+.left-bottom{
+    height:30%;
+    width:100%;
+    background-color: orangered;
+}
+.second-right{
+    background-color: aqua;
+}
+
+.first-r{
+    height:63%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.second-r{
+    height:32%;
+    width:100%;
+    background-color: rgb(219, 19, 226);;
+}
+
+.first-r-left,.first-r-right{
+    width:47%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-r-l-top{
+    background-color: orangered;
+    height:35%;
+    width:100%;
+}
+.f-r-l-middle{
+    background-color: aqua;
+    height:15%;
+    width:100%;
+}
+.f-r-l-bottom{
+    background-color: orange;
+    height:35%;
+    width:100%;
+}
+
+.f-r-r-top{
+    background-color: aqua;
+    height:40%;
+    width:100%;
+}
+.f-r-r-middle{
+    background-color: orange;
+    height:25%;
+    width:100%;
+}
+.f-r-r-bottom{
+    background-color: orangered;
+    height:20%;
+    width:100%;
+}
+
+
